@@ -1,0 +1,108 @@
+:root {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(47, 43, 43);
+}
+
+.titulo {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    color: aliceblue;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 50px 0px 50px 0px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
+    margin-top: 40px;
+}
+
+.grid {
+    background-color: rgb(63, 63, 50);
+    display: grid;
+    grid-template-columns: 70px 70px 70px 70px;
+    grid-template-rows: 80px 80px 80px 80px 80px;
+    gap: 15px;
+    padding: 30px;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.text {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    font-size: 40px;
+    color: white;
+    background-color: rgb(35, 35, 35);
+    border-radius: 10px;
+    border: 5px solid;
+    text-align: right;
+
+}
+
+.botao {
+    background-color: rgb(35, 35, 35);
+    border-radius: 10px;
+    border: 5px solid;
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.limpar {
+    background-color: brown;
+}
+
+.igual {
+    background-color: brown;
+}
+
+.botao:hover {
+    background-color: rgb(55, 55, 55);
+}
+
+@media (max-width : 768px) {
+    .titulo {
+        font-size: 40px;
+        margin: 30px 0px 30px 0px;
+    }
+
+    .grid {
+        padding: 30px 20px;
+        gap: 8px;
+        border: 4px solid white;
+    }
+
+    .text {
+        font-size: 20px;
+        color: white;
+        border: 4px solid;
+    }
+
+    .botao {
+        background-color: rgb(35, 35, 35);
+        border-radius: 10px;
+        border: 4px solid;
+        color: white;
+        cursor: pointer;
+        font-size: 20px;
+
+    }
+
+    .limpar {
+        background-color: brown;
+    }
+
+    .igual {
+        background-color: brown;
+    }
+
+}

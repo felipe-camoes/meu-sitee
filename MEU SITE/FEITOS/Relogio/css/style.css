@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital@0;1&family=Roboto+Mono:wght@100;600&display=swap');
+body{
+    display: grid;
+    grid-template-rows: 250px 250px 250px;
+    grid-template-columns: 33% 33% 33%;
+    background-color: #2C2C32;
+    font-family: 'Roboto Mono', monospace;
+}
+.container{
+    grid-row-start: 2;
+    grid-column-start: 2;
+    margin: auto auto;
+    padding: 0.3em;
+    border: 6px solid white;
+    border-radius: 20px;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+}
+.title-clock{
+    color: white;
+    grid-row-start: 1;
+    grid-column-start: 2;
+    text-align: center;
+    line-height: 450px;
+    font-weight: bold;
+    font-size: 60px;
+}
+.dia{
+    display: inline-block;
+    width: 30%;
+    font-size: 30px;
+}
+.ano{
+    display: inline-block;
+    width: 30%;
+    font-size: 30px;
+}
+.ampm{
+    display: inline-block;
+    width: 30%;
+    font-size: 30px;
+}
+.relogio{
+    font-size: 100px;
+}
+
+@media (max-width : 768px){
+
+.container{
+        grid-row-start: 2;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        width: 100%;
+    }
+   
+.dia{
+        font-size: 18px;
+    }
+.ano{
+        font-size: 18px;
+    }
+.ampm{
+        font-size: 18px;
+    }
+.relogio{
+        font-size: 60px;
+    }
+}

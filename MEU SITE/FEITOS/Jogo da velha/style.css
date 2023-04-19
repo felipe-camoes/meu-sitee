@@ -1,0 +1,108 @@
+body {
+    background-color: rgb(67, 72, 76);
+    text-align: center;
+}
+
+h1 {
+    margin: 30px auto 60px auto;
+    font-size: 50px;
+    font-weight: bold;
+    color: aliceblue;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+}
+
+.botao {
+    background-color: rgb(67, 72, 76);
+    font-size: 50px;
+    font-weight: bold;
+    color: aliceblue;
+    text-align: center;
+}
+
+
+.botao:hover {
+    cursor: pointer;
+}
+
+.b00 {
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+.b01 {
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+    border-left: 3px solid white;
+}
+
+.b02 {
+    border-bottom: 3px solid white;
+    border-left: 3px solid white;
+}
+
+.b10 {
+    border-top: 3px solid white;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+.b11 {
+    border-top: 3px solid white;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+    border-left: 3px solid white;
+}
+
+.b12 {
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    border-left: 3px solid white;
+}
+
+.b20 {
+    border-top: 3px solid white;
+    border-right: 3px solid white;
+}
+
+.b21 {
+    border-top: 3px solid white;
+    border-right: 3px solid white;
+    border-left: 3px solid white;
+}
+
+.b22 {
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+}
+
+.vitoria {
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    color: aliceblue;
+    text-align: center;
+}
+
+.botao-reiniciar {
+    margin: 20px 0px 20px 0px;
+    margin-top: 50px;
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: aliceblue;
+    text-align: center;
+}
+
+.botao-reiniciar:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
